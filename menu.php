@@ -21,6 +21,7 @@
         				<li class="nav-item active">
 							<a class="nav-link" href="http://localhost/sobre/">Sobre Mim </a>
 							<a class="nav-link" href="http://localhost/parceiros/">Parceiros</a>
+							<a class="nav-link" href="http://localhost/publicacoes/">Publicacoes</a>
 	        				<a class="nav-link" href="http://localhost/vamofut">VamoFUT V1.0 <span class="badge badge-info">Desenvolvimento</span></a>
 							<a class="nav-link" href="http://localhost/notas">Notas Online V1.0 <span class="sr-only">(current)</span></a>
         				</li>
@@ -52,6 +53,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="http://localhost/parceiros/">Parceiros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://localhost/publicacoes/">Publicacoes</a>
 					</li>
 				</ul>
 				<div class="dropdown">
@@ -104,6 +108,7 @@
         				<li class="nav-item active">
 							<a class="nav-link" href="http://joaoantoniosantos.com.br/sobre/">Sobre Mim </a>
 							<a class="nav-link" href="http://joaoantoniosantos.com.br/parceiros/">Parceiros</a>
+							<a class="nav-link" href="http://joaoantoniosantos.com.br/publicacoes/">Publicacoes</a>
 	        				<a class="nav-link" href="http://vamofut.joaoantoniosantos.com.br/">VamoFUT V1.0 <span class="badge badge-info">Desenvolvimento</span></a>
 							<a class="nav-link" href="http://notas.joaoantoniosantos.com.br/">Notas Online V1.0 <span class="sr-only">(current)</span></a>
         				</li>
@@ -135,6 +140,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="http://joaoantoniosantos.com.br/parceiros/">Parceiros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://joaoantoniosantos.com.br/publicacoes/">Publicacoes</a>
 					</li>
 				</ul>
 				<div class="dropdown">

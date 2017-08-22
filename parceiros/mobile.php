@@ -14,7 +14,7 @@
 		<link href="../cover.css" rel="stylesheet">
     </head>
 	<body>
-		<?php include 'menuParceiros.php'; ?>
+		<?php include '../menu.php'; ?>
 		<div class="container marketing">
 			<!-- Three columns of text below the carousel -->
 			<div class="row">
