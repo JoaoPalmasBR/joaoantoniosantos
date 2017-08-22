@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Livraria da Glaucia">
         <meta name="author" content="Joao Antonio Santos">
-        <link rel="icon" href="img/favicon.ico">
+        <link rel="icon" href="../img/favicon.ico">
         <title>Livraria da Glaucia</title>
         <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom styles for this template -->
-        <link href="css/album.css" rel="stylesheet">
+        <link href="../css/album.css" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
@@ -33,48 +33,22 @@
         	  </div>
         </nav>
         <br>
-        <div class="album text-muted">
-            <div class="container">
-                <div class="row">
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <form action="novo.php" method="POST">
+            <div class="album text-muted">
+                <div class="container">
+                    <h3>Nome do Livro</h3>
+                    <div class="input-group">
+                        <input name="nome" type="text" class="form-control" placeholder="Nome do Livro" aria-describedby="basic-addon1">
                     </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <hr>
+                    <h3>Codigo de Barras do Livro</h3>
+                    <center><button type="button" class="btn btn-secondary"><h4><a href="http://zxing.appspot.com/scan?ret=http://www.auere.com.br/testes/barcode.php?codigo={CODE}">Leitor</a></h4></button></center>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Codigo" aria-describedby="basic-addon1" name="codigo">
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
         <footer class="text-muted">
             <div class="container">
                 <p class="float-right">
