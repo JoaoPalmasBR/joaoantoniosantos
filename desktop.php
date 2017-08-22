@@ -16,7 +16,7 @@
 		<link href="cover.css" rel="stylesheet">
     </head>
 	<body>
-	<?php include 'menu.php'; ?>	
+		<?php include 'menu.php'; ?>	
 		<div class="site-wrapper">
 			<div class="cover-container">
 				<div class="inner cover">

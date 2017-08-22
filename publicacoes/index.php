@@ -10,7 +10,6 @@
 		include 'mobile.php';
 	}
     else{
-		//include 'mobile.php';
 		include 'desktop.php';
 	}
 ?>

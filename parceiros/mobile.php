@@ -16,6 +16,7 @@
 	<body>
 		<?php include '../menu.php'; ?>
 		<div class="container marketing">
+		<br><br><br><br>
 			<!-- Three columns of text below the carousel -->
 			<div class="row">
 				<div class="col-lg-4">
