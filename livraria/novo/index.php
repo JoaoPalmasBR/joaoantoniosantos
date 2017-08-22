@@ -1,3 +1,6 @@
+<?php 
+    $codigo=$_GET['codigo'];
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,7 +25,8 @@
         	  <div class="collapse navbar-collapse" id="navbarCollapse">
           		  <ul class="navbar-nav mr-auto">
         			      <li class="nav-item active">
-        				        <a class="nav-link" href="http://joaoantoniosantos.com.br/livraria/novo/">Novo <span class="sr-only">(current)</span></a>
+        				        <!--<a class="nav-link" href="http://joaoantoniosantos.com.br/livraria/novo/">Novo <span class="sr-only">(current)</span></a>-->
+                                <a class="nav-link" href="http://zxing.appspot.com/scan?ret=http://joaoantoniosantos.com.br/livraria/novo/index.php?codigo={CODE}">Novo</a>
                                 <!--<a class="nav-link" href="http://localhost/livraria/novo/">Novo <span class="sr-only">(current)</span></a>-->
         			      </li>
         		    </ul>
@@ -42,9 +46,8 @@
                     </div>
                     <hr>
                     <h3>Codigo de Barras do Livro</h3>
-                    <center><button type="button" class="btn btn-secondary"><h4><a href="http://zxing.appspot.com/scan?ret=http://www.auere.com.br/testes/barcode.php?codigo={CODE}">Leitor</a></h4></button></center>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Codigo" aria-describedby="basic-addon1" name="codigo">
+                        <input type="text" class="form-control" placeholder="Codigo" aria-describedby="basic-addon1" name="codigo" value="<?php echo $codigo; ?>">
                     </div>
                 </div>
             </div>

@@ -1,0 +1,15 @@
+@media (max-width: 950px) {
+
+	iframe {
+
+		width: 100%;
+
+	}
+
+	.issuu-isrendered {
+
+		max-width: 100% !important;
+
+	}
+
+}
